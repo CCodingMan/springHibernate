@@ -3,7 +3,7 @@
         "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
         "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
         
-<hibernate-mapping>
+<hibernate-mapping package="com.ljj.pojo">
   <class name="Category" table="category_sh">
     <id name="id" column="id">
       <generator class="native"></generator>
